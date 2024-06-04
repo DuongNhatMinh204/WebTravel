@@ -94,7 +94,7 @@ header .bar a:hover{
     margin-top: 10px; /* Tạo khoảng cách phía trên nếu cần */
     color: white; /* Màu chữ trắng để tương phản với màu nền */
 }
-a:hover{
+.khoitin a:hover{
     background: #e1c6c6;
 }
 .khoitin{
@@ -132,4 +132,31 @@ a:hover{
 
 .khoitin .tin:hover .an {
     opacity: 1;
+}
+.khoitin .tin1 img{
+    width: 1230px;
+    height: 230px;
+}
+.khoitin .tin1 .an {
+    position: absolute;
+    top: 675px;
+    left: 150px;
+    right: 140px;
+    bottom:-155px;
+    background: rgba(0, 0, 0, 0.7); /* Nền đen với độ trong suốt */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.khoitin .tin1:hover .an {
+    opacity: 1;
+    background-color:rgba(0, 0, 0, 0.7) ;
+}
+.bar .indam{
+    color: var(--xanh);
 }

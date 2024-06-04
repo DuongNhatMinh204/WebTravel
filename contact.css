@@ -132,3 +132,6 @@ textarea{
     background-color: var(--orange); /* Màu nền khi di chuột vào */
     color: var(--trong); /* Màu chữ khi di chuột vào */
 }
+.bar .indam{
+    color: var(--xanh);
+}

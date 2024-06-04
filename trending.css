@@ -53,6 +53,9 @@ header .bar a{
 header .bar a:hover{
     color: var(--xanh);
 }
+.bar .indam{
+    color: var(--xanh);
+}
 .icons{
     margin-right: 90px;
 }

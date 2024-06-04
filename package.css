@@ -53,6 +53,9 @@ header .bar a{
 header .bar a:hover{
     color: var(--xanh);
 }
+.bar .indam{
+    color: var(--xanh);
+}
 .icons{
     margin-right: 90px;
 }
@@ -129,6 +132,6 @@ header .bar a:hover{
     margin-top: 10px; /* Tạo khoảng cách phía trên nếu cần */
     color: white; /* Màu chữ trắng để tương phản với màu nền */
 }
-a:hover{
+.khoitin a:hover{
     background: #e1c6c6;
 }

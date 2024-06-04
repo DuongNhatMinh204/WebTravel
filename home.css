@@ -71,6 +71,9 @@ header .bar a:hover{
 section{
     padding: 40px;
 }
+.bar .indam{
+    color: var(--xanh);
+}
 .container-top{
     min-height: 100vh;
     display: flex;
@@ -101,7 +104,8 @@ section{
   /* đặt con trỏ chuột thành dạng pointer khi di chuột qua phần tử btn  */
   cursor: pointer;
   font-size: 16 px;
-  border-radius: 5px;
+  border-radius: 30px;
+  padding: 10px;
 }
 .container-top .content .discovermore:hover{
     background:rgba(255, 165, 0,.2);

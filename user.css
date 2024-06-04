@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-:root{
-    --orange:#ffa500;
-    --xanh:#29b862;
-    --red:#ec3535;
-    --xanhbien:#538df0;
-    --trong:#7be0cc;
+:root {
+    --orange: #ffa500;
+    --xanh: #29b862;
+    --red: #ec3535;
+    --xanhbien: #538df0;
+    --trong: #7be0cc;
 }
-  
-*{
+
+* {
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
     text-transform: capitalize;
-    outline: none; 
-    border:none;
+    outline: none;
+    border: none;
     text-decoration: none;
     transition: all .2s linear;
 }
@@ -22,10 +22,10 @@ body {
     padding: 0;
 }
 
-header{
+header {
     position: fixed;
-    top: 0; 
-    left: 0; 
+    top: 0;
+    left: 0;
     right: 0;
     background: #333;
     display: flex;
@@ -33,111 +33,125 @@ header{
     justify-content: space-between;
     padding: 10px 35px;
     height: 50px;
-
 }
-header .logo{
+
+header .logo {
     margin-left: 30px;
     font-size: 30px;
     font-weight: bolder;
     color: #fff;
     text-transform: uppercase;
 }
-header .logo span{
+
+header .logo span {
     color: var(--xanh);
 }
-header .bar a{
+
+header .bar a {
     margin-right: 15px;
     font-size: 18px;
     color: white;
 }
-header .bar a:hover{
+
+header .bar a:hover {
     color: var(--xanh);
 }
-.icons{
+
+.icons {
     margin-right: 90px;
 }
-.icons i{
+
+.icons i {
     color: white;
     font-size: 18px;
-    
 }
-.icons a i:hover{
+
+.icons a i:hover {
     color: var(--xanh);
 }
-.bar .indam{
-    color: var(--xanh);
-}
-.heading{
+
+.heading {
     /* các phần tử trong heading văn bản được căn giữa  */
     text-align: center;
-    padding:50px;
-  }
-  
-.heading span{
+    padding: 50px;
+}
+
+.heading span {
     font-size: 28px;
-    background:rgba(255, 165, 0,.2);
-    color:var(--trong);
+    background: rgba(255, 165, 0, .2);
+    color: var(--trong);
     /* đặt bán kính bo tròn  */
     border-radius: 8px;
     padding: 21px 18px;
     margin-top: 80px;
 }
-  
-.heading span.space{
+
+.heading span.space {
     /* loại bỏ màu nền của pâhnf tử span có lớp space làm cho không có màu nền  */
-    background:none;
+    background: none;
 }
-.plan{
+
+form {
+    margin-left: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.plan h2,p{
-    color: #7ac0e1;
-    font-weight: bold;
-    font-size: 30px;
-}
-.form{
+
+form .sign {
     display: flex;
-    flex-direction: column;
-}
-.form input[type="text"]{
-    height: 50px;
-    width:400px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    margin-bottom: 10px;
 }
-.form input[type="date"]{
-    height: 50px;
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
+
+form table {
+    margin-top: 100px;
     border-radius: 30px;
-    margin-bottom: 10px;
-}
-.form input[type="number"]{
-    height: 50px;
+    padding: 20px;
+    height: 500px;
     width: 400px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    margin-bottom: 10px;
 }
-.form input[type="submit"]{
+
+form table input[type="text"],
+form table input[type="tel"],
+form table input[type="password"],
+form table input[type="email"] {
+    border: 1px solid var(--trong);
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+form table button {
     height: 50px;
     width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--trong);
     border-radius: 30px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background-color: var(--xanh); /* Màu nền mặc định */
 }
-.form input[type="submit"]:hover {
-    background-color: var(--orange); /* Màu nền khi di chuột vào */
-    color: var(--trong); /* Màu chữ khi di chuột vào */
+
+form table input[type="submit"] {
+    border: 1px solid var(--trong);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #7be0cc;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #7be0cc;
+}
+
+.indam {
+    background-color: #7be0cc;
+}
+.hidden {
+    display: none;
 }
 .video-container video{
     position: absolute;
